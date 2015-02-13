@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gui>
+  <properties>
+    <project>cf-ds-video</project>
+    <designer>Vladimir Shabunin</designer>
+    <size autoposition="scale">
+      <portrait width="768" height="1024" />
+      <landscape width="1024" height="768" />
+    </size>
+    <autoposition />
+    <imagefolder>assets</imagefolder>
+    <debug loaderrors="0" connectionerrors="0" />
+    <devices>
+      <device name="air olga">4A2F1B9F42E35352C62D8FAD199D109C</device>
+      <device name="iPhone RS">CEE8F7C525C88686883D5AC1753D4FA0</device>
+      <device name="iPad (PAVEL)">D0E9980BE97B8326AD79BA2CBB094ED2</device>
+      <device name="iPad (Пётр) mini">1B100C5680D53AAD5617A895A6162677</device>
+      <device name="Sony Z3 Compact Vladimir">F20B70641D59DE7F92F3B2FE03AA5CDD</device>
+      <device name="iPad (Пётр)">613D1F8D3BC10B69F2BAB9AC0FE21F5E</device>
+      <device name="iPad (Maxim)">146AB92D1A81A55887711A14A5176697</device>
+      <device name="iPad (Sergey)">64AD3C4A1B18E82E89C9E2733CE66911</device>
+      <device name="iPad rs">B1DB067DBC7EB94B4749264D742025BB</device>
+      <device name="iPad Polyanka 4 - Vladimir">320260B42904155828E359208DFD1188</device>
+      <device name="iPad Polyanka 1">F7DECAC8D7C408BB1668B47E9F0E4305</device>
+      <device name="iPad Pollyanna 2">9DDACC7C4D46A74126F247099EB27C34</device>
+      <device name="iPad Polyanka 3">F077D6CFBD7DB8D52C023B884D51B11D</device>
+      <device name="iPad new 22">D782FCE451BD67813198C6EFB061CF7E</device>
+      <device name="Sony LT25i">15DCDE3D3B63FA8BE1DBE3E52848A155</device>
+      <device name="iPad Dmitriy">69E32DB061C09965437E713E269B7FB8</device>
+      <device name="iPad tommy">298F02C2C219D67FB45A344BD524A85D</device>
+    </devices>
+  </properties>
+  <systems>
+    <system name="Self" protocol="tcp" accept="0" ip="127.0.0.1" port="10207" origin="0" alwayson="1" idleTimeout="0" dialogTimeout="0" heartbeatMode="-1" heartbeatRx="" heartbeatTx="" textEncoding="" eom="" js="" connectionStatus="0" disconnectionStatus="0" startupCmd="" startupMacro="" offlinequeue="1" ssl="0">
+      <cmd name="listPluginSearch" js="videoStation.listPluginSearch()" jsSendsCommand="False" />
+    </system>
+  </systems>
+  <themes>
+    <theme type="background" name=".landscape"><![CDATA[ background-image: url(bg_landscape.png); background-repeat: no-repeat;]]></theme>
+    <theme type="button" name=".btn_categories[state='0']"><![CDATA[padding: 0px 12px 0px 12px; -webkit-border-image: url(btn_categories_off.png) 0 12 0 12; text-shadow: rgba(0,0,0,1) 1px 1px 1px; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_categories[state='1']"><![CDATA[padding: 0px 12px 0px 12px; -webkit-border-image: url(btn_categories_on.png) 0 12 0 12; text-shadow: rgba(0,0,0,1) 1px 1px 1px; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: bold; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="text" name=".Title_L"><![CDATA[ text-shadow: rgba(0,0,0,1) 1px -1px 1px; color: White; font-size: 24px; font-family: 'Arial'; text-align: left; vertical-align: middle; font-weight: bold; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="text" name=".Title_M"><![CDATA[ text-shadow: rgba(0,0,0,1) 1px -1px 1px; color: White; font-size: 18px; font-family: 'Arial'; text-align: left; vertical-align: middle; font-weight: bold; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="button" name=".cfblue2_bottom[state='0']"><![CDATA[padding: 0px 19px 0px 19px; -webkit-border-image: url(bottom_btn_off.png) 0 19 0 19; text-shadow: rgba(0,0,0,0.78) 0px -1px 0px; color: White; font-size: 18px; font-family: 'Futura'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cfblue2_bottom[state='1']"><![CDATA[padding: 0px 19px 0px 19px; -webkit-border-image: url(bottom_btn_on.png) 0 19 0 19; text-shadow: rgba(0,0,0,0.78) 0px -1px 0px; color: White; font-size: 18px; font-family: 'Futura'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="text" name=".cfblue2_small_l"><![CDATA[ text-shadow: rgba(0,0,0,0.78) 1px 1px 1px; color: White; font-size: 14px; font-family: 'Futura'; text-align: left; vertical-align: middle; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="input" name=".cfblue2_white"><![CDATA[ border-width: 0px; color: White; font-size: 18px; font-family: 'Arial'; text-align: left; vertical-align: middle; font-weight: bold; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="button" name=".cfblue2_bottom_L[state='0']"><![CDATA[padding: 0px 0px 0px 8px; background-image: url(bottom_btn_L_off.png); text-shadow: rgba(0,0,0,0.78) 0px -1px 0px; color: White; font-size: 14px; font-family: 'Futura'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cfblue2_bottom_L[state='1']"><![CDATA[padding: 0px 0px 0px 8px; background-image: url(bottom_btn_L_on.png); text-shadow: rgba(0,0,0,0.78) 0px -1px 0px; color: White; font-size: 14px; font-family: 'Futura'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cfblue2_bottom_M[state='0']"><![CDATA[padding: 0px 2px 0px 2px; -webkit-border-image: url(bottom_btn_M_off.png) 0 2 0 2; text-shadow: rgba(0,0,0,0.78) 0px -1px 0px; color: White; font-size: 14px; font-family: 'Futura'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cfblue2_bottom_M[state='1']"><![CDATA[padding: 0px 2px 0px 2px; -webkit-border-image: url(bottom_btn_M_on.png) 0 2 0 2; text-shadow: rgba(0,0,0,0.78) 0px -1px 0px; color: White; font-size: 14px; font-family: 'Futura'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cfblue2_bottom_R[state='0']"><![CDATA[padding: 0px 8px 0px 0px; background-image: url(bottom_btn_R_off.png); text-shadow: rgba(0,0,0,0.78) 0px -1px 0px; color: White; font-size: 14px; font-family: 'Futura'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cfblue2_bottom_R[state='1']"><![CDATA[padding: 0px 8px 0px 0px; background-image: url(bottom_btn_R_on.png); text-shadow: rgba(0,0,0,0.78) 0px -1px 0px; color: White; font-size: 14px; font-family: 'Futura'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cfblue2_bottom_bare[state='0']"><![CDATA[padding: 0px 19px 0px 19px; -webkit-border-image: url(bottom_btn_bare_off.png) 0 19 0 19; text-shadow: rgba(0,0,0,0.78) 0px -1px 0px; color: White; font-size: 18px; font-family: 'Futura'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cfblue2_bottom_bare[state='1']"><![CDATA[padding: 0px 19px 0px 19px; -webkit-border-image: url(bottom_btn_bare_on.png) 0 19 0 19; text-shadow: rgba(0,0,0,0.78) 0px -1px 0px; color: White; font-size: 18px; font-family: 'Futura'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="text" name=".cfblue2_title_l"><![CDATA[ text-shadow: rgba(0,0,0,0.78) 1px 1px 1px; color: White; font-size: 18px; font-family: 'Futura'; text-align: left; vertical-align: middle; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="background" name=".cfblue2_popup"><![CDATA[ background-image: url(popup_bg.png); background-repeat: no-repeat;]]></theme>
+    <theme type="text" name=".cinema_title"><![CDATA[ text-shadow: rgba(0,0,0,0.78) 1px 1px 1px; color: White; font-size: 14px; font-family: 'Futura'; text-align: left; vertical-align: bottom; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="button" name=".cfblue2_main_menu[state='0']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(main_menu_btn.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cfblue2_main_menu[state='1']"><![CDATA[padding: 0px 0px 0px 0px; background-image: url(main_menu_btn.png); color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cfblue2_grey_left[state='0']"><![CDATA[padding: 0px 10px 2px 4px; -webkit-border-image: url(btn_plaingrey_off.png) 0 10 2 4; text-shadow: rgba(0,0,0,0.78) 0px -1px 0px; color: White; font-size: 16px; font-family: 'Futura'; font-weight: normal; font-style: none; text-decoration: none; text-align: left; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".cfblue2_grey_left[state='1']"><![CDATA[padding: 0px 10px 2px 4px; -webkit-border-image: url(btn_plaingrey_on.png) 0 10 2 4; text-shadow: rgba(0,0,0,0.78) 0px -1px 0px; color: White; font-size: 16px; font-family: 'Futura'; font-weight: normal; font-style: none; text-decoration: none; text-align: left; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_transparent[state='0']"><![CDATA[padding: 0px 0px 0px 0px; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="button" name=".btn_transparent[state='1']"><![CDATA[padding: 0px 0px 0px 0px; color: White; font-size: 12px; font-family: 'Verdana'; font-weight: normal; font-style: none; text-decoration: none; text-align: center; vertical-align: middle; display: table-cell; box-sizing: border-box; -webkit-box-sizing: border-box; -webkit-tap-highlight-color:rgba(0,0,0,0);]]></theme>
+    <theme type="text" name=".cinema_summary"><![CDATA[ text-shadow: rgba(0,0,0,0.78) 1px 1px 1px; color: White; font-size: 14px; font-family: 'Futura'; text-align: left; vertical-align: top; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="text" name=".textR"><![CDATA[ text-shadow: rgba(0,0,0,0.78) 1px 1px 1px; color: White; font-size: 14px; font-family: 'Futura'; text-align: right; vertical-align: top; font-weight: normal; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+    <theme type="input" name=".input_default"><![CDATA[ background-color: White; border-width: 0px; color: Black; font-size: 12px; font-family: 'Arial'; text-align: left; vertical-align: top; font-weight: bold; font-style: none; text-decoration: none; display: table-cell;]]></theme>
+  </themes>
+  <scripts>
+    <script name="syno-ds-video.js" />
+    <script name="userMain.js" />
+  </scripts>
+  <page name="Startup" j="0" tags="" transition="" subtype="" time="0" ease="" start="1">
+    <portrait />
+    <landscape t="landscape">
+      <img x="122" y="7" w="902" h="54" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0" tags="">img_topbar_dark.png</img>
+      <txt j="0" x="856" y="11" w="150" h="41" t="Title_L" wrap="False" l="0" tags="">VideoStation</txt>
+      <btn j="301" x="364" y="712" w="91" h="44" t="cfblue2_bottom_L" flip="None" sim="0" l="0" s="1" tags="" js="selectAll(join);">
+        <inactive s="0">All</inactive>
+        <active s="0">All</active>
+      </btn>
+      <btn j="304" x="640" y="712" w="91" h="44" t="cfblue2_bottom_M" flip="None" sim="0" l="0" s="1" tags="" js="selectWatched(join);">
+        <inactive s="0">Just watched</inactive>
+        <active s="0">Just watched</active>
+      </btn>
+      <btn j="305" x="732" y="712" w="91" h="44" t="cfblue2_bottom_R" flip="None" sim="0" l="0" s="1" tags="" js="selectReleased(join);">
+        <inactive s="0">Just released</inactive>
+        <active s="0">Just released</active>
+      </btn>
+      <img x="10" y="712" w="21" h="44" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0" tags="">bottom_textarea_L.png</img>
+      <img x="31" y="712" w="69" h="44" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0" tags="">bottom_textarea_M.png</img>
+      <img x="308" y="712" w="20" h="44" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0" tags="">bottom_textarea_dark_R.png</img>
+      <img x="121" y="712" w="187" h="44" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0" tags="">bottom_textarea_dark_M.png</img>
+      <img x="100" y="712" w="21" h="44" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0" tags="">bottom_textarea_dark_L.png</img>
+      <btn j="300" x="270" y="712" w="58" h="44" t="cfblue2_bottom_bare" flip="None" sim="2" l="0" s="1" tags="">
+        <inactive s="0">
+          <img x="16" y="0" w="26" h="44">icon_arrowUp.png</img>
+        </inactive>
+        <active s="0">
+          <img x="16" y="0" w="26" h="44">icon_arrowUp.png</img>
+        </active>
+      </btn>
+      <txt j="0" x="112" y="714" w="154" h="39" t="cfblue2_title_l" wrap="False" l="0" tags="">Movies</txt>
+      <txt j="0" x="28" y="714" w="67" h="39" t="cfblue2_small_l" wrap="False" l="0" tags="">Category</txt>
+      <btn j="302" x="456" y="712" w="91" h="44" t="cfblue2_bottom_M" flip="None" sim="0" l="0" s="1" tags="" js="selectFolder(join);">
+        <inactive s="0">Folder</inactive>
+        <active s="0">Folder</active>
+      </btn>
+      <btn j="303" x="548" y="712" w="91" h="44" t="cfblue2_bottom_M" flip="None" sim="0" l="0" s="1" tags="" js="selectAdded(join);">
+        <inactive s="0">Just Added</inactive>
+        <active s="0">Just Added</active>
+      </btn>
+      <btn j="310" x="863" y="712" w="58" h="44" t="cfblue2_bottom_bare" flip="None" sim="0" l="0" s="1" tags="" js="selectSearch(join);">
+        <inactive s="0">
+          <img x="8" y="0" w="40" h="40">transport_small_zoom_off.png</img>
+        </inactive>
+        <active s="0">
+          <img x="8" y="0" w="40" h="40">transport_small_zoom_off.png</img>
+        </active>
+      </btn>
+      <btn j="0" x="946" y="712" w="58" h="44" t="cfblue2_bottom_bare" flip="None" sim="1" l="0" s="1" tags="">
+        <inactive s="0">
+          <img x="12" y="0" w="40" h="40">transport_small_last_off.png</img>
+        </inactive>
+        <active s="0">
+          <img x="12" y="0" w="40" h="40">transport_small_last_off.png</img>
+        </active>
+      </btn>
+      <subpage name="categorySelect" x="21" y="408" j="300" transition1="fade" subtype1="None" time1="0" ease1="" transition2="fade" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="1" v="0" l="0" tags="" />
+      <subpage name="moviesList" x="16" y="67" j="306" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="0" v="0" l="0" tags="" />
+      <btn j="0" x="14" y="10" w="104" h="43" t="cfblue2_bottom_bare" flip="None" sim="1" l="0" s="1" tags="" js="goBack()">
+        <inactive s="0">&lt; back</inactive>
+        <active s="0">&lt; back</active>
+      </btn>
+      <subpage name="movieDetails" x="16" y="67" j="307" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="0" v="0" l="0" tags="" />
+      <subpage name="pluginSearchList" x="16" y="67" j="308" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="0" v="0" l="0" tags="" />
+      <subpage name="movieDetailsEdit" x="16" y="67" j="309" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="0" v="0" l="0" tags="" />
+      <subpage name="movieSearchAndFilterList" x="16" y="67" j="311" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="0" v="0" l="0" tags="" />
+      <subpage name="filterSelect" x="708" y="135" j="312" transition1="moveIn" subtype1="fromRight" time1="0" ease1="easeInEaseOut" transition2="moveIn" subtype2="fromRight" time2="0" ease2="easeInEaseOut" clickthrough="0" topmost="0" v="0" l="0" tags="" />
+      <subpage name="playMovie" x="16" y="67" j="313" transition1="None" subtype1="None" time1="0" ease1="" transition2="None" subtype2="None" time2="0" ease2="" clickthrough="0" topmost="0" v="1" l="0" tags="" />
+    </landscape>
+  </page>
+  <subpage name="categorySelect" w="300" h="300" clip="1">
+    <btn j="0" x="0" y="0" w="300" h="300" t="cfblue2_main_menu" flip="None" sim="0" l="0" s="1" tags="">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="0" x="0" y="0" w="300" h="300" t="cfblue2_main_menu" flip="None" sim="0" l="0" s="1" tags="">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="0" x="24" y="83" w="255" h="54" t="cfblue2_bottom" flip="None" sim="1" l="0" s="1" tags="" js="selectMovies();">
+      <inactive s="0">Movies</inactive>
+      <active s="0">Movies</active>
+    </btn>
+    <btn j="0" x="24" y="143" w="255" h="54" t="cfblue2_bottom" flip="None" sim="1" l="0" s="1" tags="" js="selectShows();">
+      <inactive s="0">TV Shows</inactive>
+      <active s="0">TV Shows</active>
+    </btn>
+    <btn j="0" x="24" y="203" w="255" h="54" t="cfblue2_bottom" flip="None" sim="1" l="0" s="1" tags="" js="selectHomeVideo()">
+      <inactive s="0">Home Videos</inactive>
+      <active s="0">Home Videos</active>
+    </btn>
+  </subpage>
+  <subpage name="tpl_MoviesList" w="992" h="281" clip="1">
+    <img x="14" y="8" w="180" h="265" j="1" clickthrough="0" refresh="0" l="0" noCache="1" downloadIndicator="0" clearOnURLChange="0" tags="" />
+    <img x="210" y="8" w="180" h="265" j="11" clickthrough="0" refresh="0" l="0" noCache="1" downloadIndicator="0" clearOnURLChange="0" tags="" />
+    <img x="406" y="8" w="180" h="265" j="21" clickthrough="0" refresh="0" l="0" noCache="1" downloadIndicator="0" clearOnURLChange="0" tags="" />
+    <img x="602" y="8" w="180" h="265" j="31" clickthrough="0" refresh="0" l="0" noCache="1" downloadIndicator="0" clearOnURLChange="0" tags="" />
+    <img x="798" y="8" w="180" h="265" j="41" clickthrough="0" refresh="0" l="0" noCache="1" downloadIndicator="0" clearOnURLChange="0" tags="" />
+    <txt j="2" x="16" y="227" w="174" h="44" t="cinema_title" wrap="True" l="0" tags="">Cinema Title</txt>
+    <txt j="12" x="212" y="227" w="174" h="44" t="cinema_title" wrap="False" l="0" tags="">
+    </txt>
+    <txt j="22" x="408" y="227" w="174" h="44" t="cinema_title" wrap="False" l="0" tags="">
+    </txt>
+    <txt j="32" x="604" y="227" w="174" h="44" t="cinema_title" wrap="False" l="0" tags="">
+    </txt>
+    <txt j="42" x="800" y="227" w="174" h="44" t="cinema_title" wrap="False" l="0" tags="">
+    </txt>
+    <btn j="1" x="11" y="8" w="185" h="245" t="btn_transparent" flip="None" sim="0" l="0" s="1" tags="" js="videoStation.movieListClick(list, listIndex, join)">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="11" x="206" y="12" w="185" h="240" t="btn_transparent" flip="None" sim="0" l="0" s="1" tags="" js="videoStation.movieListClick(list, listIndex, join)">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="21" x="401" y="12" w="185" h="241" t="btn_transparent" flip="None" sim="0" l="0" s="1" tags="" js="videoStation.movieListClick(list, listIndex, join)">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="31" x="598" y="10" w="185" h="244" t="btn_transparent" flip="None" sim="0" l="0" s="1" tags="" js="videoStation.movieListClick(list, listIndex, join)">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="41" x="794" y="8" w="185" h="246" t="btn_transparent" flip="None" sim="0" l="0" s="1" tags="" js="videoStation.movieListClick(list, listIndex, join)">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+  </subpage>
+  <subpage name="cache" w="500" h="500" clip="1">
+    <img x="0" y="0" w="122" h="182" j="0" clickthrough="0" refresh="0" l="0" noCache="0" downloadIndicator="0" clearOnURLChange="0" tags="">folder.png</img>
+  </subpage>
+  <subpage name="tpl_GenreActorDirectorWriter" w="200" h="32" clip="1">
+    <btn j="0" x="0" y="0" w="192" h="32" t="btn_categories" flip="None" sim="1" l="0" s="1" tags="">
+      <inactive s="1">actor1</inactive>
+      <active s="1">actor1</active>
+    </btn>
+  </subpage>
+  <subpage name="tpl_PluginSearchResult" w="700" h="64" clip="1">
+    <btn j="0" x="0" y="2" w="357" h="62" t="cfblue2_grey_left" flip="None" sim="1" l="0" s="1" tags="" js="videoStation.pluginSearchResultClick(list, listIndex, join)">
+      <inactive s="1">MovieTitle</inactive>
+      <active s="1">MovieTitle</active>
+    </btn>
+    <btn j="0" x="363" y="2" w="337" h="62" t="cfblue2_grey_left" flip="None" sim="1" l="0" s="1" tags="" js="videoStation.pluginSearchResultClick(list, listIndex, join)">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <txt j="2" x="376" y="6" w="299" h="51" t="cinema_summary" wrap="True" l="0" tags="">summary</txt>
+    <txt j="3" x="208" y="6" w="144" h="26" t="textR" wrap="True" l="0" tags="">released</txt>
+  </subpage>
+  <subpage name="movieDetailsEdit" w="992" h="625" clip="1">
+    <img x="27" y="54" w="250" h="367" j="114" clickthrough="0" refresh="0" l="0" noCache="1" downloadIndicator="0" clearOnURLChange="1" tags="" />
+    <txt j="0" x="320" y="46" w="58" h="38" t="Title_L" wrap="False" l="0" tags="">Title:</txt>
+    <txt j="0" x="320" y="129" w="77" h="27" t="cfblue2_small_l" wrap="False" l="0" tags="">tagline:</txt>
+    <txt j="0" x="320" y="440" w="90" h="28" t="cinema_summary" wrap="True" l="0" tags="">Summary:</txt>
+    <txt j="0" x="320" y="213" w="69" h="27" t="cfblue2_small_l" wrap="False" l="0" tags="">Genre:</txt>
+    <txt j="0" x="320" y="272" w="69" h="27" t="cfblue2_small_l" wrap="False" l="0" tags="">Actors:</txt>
+    <txt j="0" x="320" y="328" w="69" h="27" t="cfblue2_small_l" wrap="False" l="0" tags="">Directors:</txt>
+    <txt j="0" x="320" y="389" w="69" h="27" t="cfblue2_small_l" wrap="False" l="0" tags="">Writers:</txt>
+    <btn j="50" x="27" y="542" w="247" h="45" t="cfblue2_bottom" flip="None" sim="0" l="0" s="1" tags="" js="CF.getJoin( 'd50', function(j, v, t) { if (v=='0') { CF.setJoin('d50', 1); videoStation.saveMovieDetails(); }} );">
+      <inactive s="0">Save Details</inactive>
+      <active s="0">Save Details</active>
+    </btn>
+    <input j="0" s="107" x="407" y="53" w="375" h="29" pass="0" autoFocus="0" f="0" t="input_default" l="0" tags="">
+    </input>
+    <input j="0" s="108" x="407" y="128" w="375" h="29" pass="0" autoFocus="0" f="0" t="input_default" l="0" tags="">
+    </input>
+    <input j="0" s="109" x="407" y="213" w="375" h="29" pass="0" autoFocus="0" f="0" t="input_default" l="0" tags="">
+    </input>
+    <input j="0" s="110" x="407" y="271" w="375" h="29" pass="0" autoFocus="0" f="0" t="input_default" l="0" tags="">
+    </input>
+    <input j="0" s="111" x="407" y="331" w="375" h="29" pass="0" autoFocus="0" f="0" t="input_default" l="0" tags="">
+    </input>
+    <input j="0" s="112" x="407" y="389" w="375" h="29" pass="0" autoFocus="0" f="0" t="input_default" l="0" tags="">
+    </input>
+    <input j="0" s="113" x="407" y="440" w="375" h="157" pass="0" autoFocus="0" f="0" t="input_default" l="0" tags="">
+    </input>
+    <txt j="0" x="322" y="173" w="77" h="27" t="cfblue2_small_l" wrap="False" l="0" tags="">available:</txt>
+    <input j="0" s="115" x="409" y="172" w="375" h="29" pass="0" autoFocus="0" f="0" t="input_default" l="0" tags="">
+    </input>
+  </subpage>
+  <subpage name="tpl_Filter" w="265" h="64" clip="1">
+    <btn j="1" x="0" y="2" w="265" h="62" t="cfblue2_bottom" flip="None" sim="0" l="0" s="1" tags="" js="videoStation.filterListClick(list, listIndex, join)">
+      <inactive s="1">Filter Title</inactive>
+      <active s="1">Filter Title</active>
+    </btn>
+  </subpage>
+  <subpage name="moviesList" w="992" h="625" clip="1">
+    <list j="20" x="0" y="0" w="992" h="625" headerSub="" titleSub="" contentSub="tpl_MoviesList" footerSub="" orientation="v" l="0" swipedelete="0" tags="" />
+  </subpage>
+  <subpage name="pluginSearchList" w="992" h="625" clip="1">
+    <timer j="321" tags="" interval="5000">
+      <command>listPluginSearch</command>
+    </timer>
+    <input j="0" s="106" x="138" y="84" w="355" h="33" pass="0" autoFocus="0" f="0" t="input_default" l="0" tags="">Input movie title</input>
+    <btn j="51" x="502" y="78" w="132" h="45" t="cfblue2_bottom_bare" flip="None" sim="0" l="0" s="1" tags="" js="CF.getJoin(join, function(j, v, t) { if (v == '0') { CF.setJoin(join, 1); videoStation.startPluginSearch() }});">
+      <inactive s="0">Search</inactive>
+      <active s="0">Search</active>
+    </btn>
+    <list j="25" x="137" y="135" w="710" h="449" headerSub="" titleSub="" contentSub="tpl_PluginSearchResult" footerSub="" orientation="v" l="0" swipedelete="0" tags="" />
+    <btn j="0" x="706" y="78" w="132" h="45" t="cfblue2_bottom_bare" flip="None" sim="1" l="0" s="1" tags="" js="videoStation.stopPluginSearch();">
+      <inactive s="0">Stop</inactive>
+      <active s="0">Stop</active>
+    </btn>
+  </subpage>
+  <subpage name="movieSearchAndFilterList" w="992" h="625" clip="1">
+    <input j="0" s="116" x="5" y="5" w="668" h="33" pass="0" autoFocus="0" f="0" t="input_default" l="0" tags="">Input keyword</input>
+    <btn j="0" x="680" y="0" w="150" h="45" t="cfblue2_bottom_bare" flip="None" sim="1" l="0" s="1" tags="" js="videoStation.makeSearch();">
+      <inactive s="0">Search</inactive>
+      <active s="0">Search</active>
+    </btn>
+    <btn j="312" x="842" y="0" w="150" h="45" t="cfblue2_bottom_bare" flip="None" sim="2" l="0" s="1" tags="">
+      <inactive s="0">Filters</inactive>
+      <active s="0">Filters</active>
+    </btn>
+    <list j="20" x="0" y="44" w="992" h="581" headerSub="" titleSub="" contentSub="tpl_MoviesList" footerSub="" orientation="v" l="0" swipedelete="0" tags="" />
+  </subpage>
+  <subpage name="filterSelect" w="300" h="520" clip="1">
+    <btn j="0" x="0" y="0" w="300" h="520" t="cfblue2_main_menu" flip="None" sim="0" l="0" s="1" tags="">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="0" x="0" y="0" w="300" h="520" t="cfblue2_main_menu" flip="None" sim="0" l="0" s="1" tags="">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <list j="26" x="19" y="105" w="265" h="382" headerSub="" titleSub="" contentSub="tpl_Filter" footerSub="" orientation="v" l="0" swipedelete="0" tags="" />
+    <btn j="0" x="0" y="0" w="300" h="72" t="cfblue2_main_menu" flip="None" sim="0" l="0" s="1" tags="">
+      <inactive s="0">
+      </inactive>
+      <active s="0">
+      </active>
+    </btn>
+    <btn j="0" x="13" y="18" w="104" h="43" t="cfblue2_bottom_bare" flip="None" sim="1" l="0" s="1" tags="" js="videoStation.createCategoryList();">
+      <inactive s="0">&lt; back</inactive>
+      <active s="0">&lt; back</active>
+    </btn>
+    <btn j="0" x="181" y="18" w="104" h="43" t="cfblue2_bottom_bare" flip="None" sim="1" l="0" s="1" tags="" js="videoStation.clearFilters();">
+      <inactive s="0">Reset</inactive>
+      <active s="0">Reset</active>
+    </btn>
+  </subpage>
+  <subpage name="movieDetails" w="992" h="625" clip="1">
+    <img x="27" y="54" w="250" h="367" j="100" clickthrough="0" refresh="0" l="0" noCache="1" downloadIndicator="0" clearOnURLChange="1" tags="" />
+    <txt j="101" x="311" y="46" w="455" h="38" t="Title_L" wrap="False" l="0" tags="">Title</txt>
+    <txt j="102" x="311" y="82" w="204" h="32" t="Title_M" wrap="False" l="0" tags="">released </txt>
+    <txt j="103" x="311" y="129" w="615" h="27" t="cfblue2_small_l" wrap="False" l="0" tags="">tagline</txt>
+    <list j="21" x="411" y="196" w="520" h="51" headerSub="" titleSub="" contentSub="tpl_GenreActorDirectorWriter" footerSub="" orientation="h" l="0" swipedelete="0" tags="" />
+    <txt j="104" x="320" y="440" w="616" h="166" t="cinema_summary" wrap="True" l="0" tags="">summary</txt>
+    <list j="22" x="411" y="259" w="520" h="48" headerSub="" titleSub="" contentSub="tpl_GenreActorDirectorWriter" footerSub="" orientation="h" l="0" swipedelete="0" tags="" />
+    <list j="23" x="411" y="319" w="520" h="49" headerSub="" titleSub="" contentSub="tpl_GenreActorDirectorWriter" footerSub="" orientation="h" l="0" swipedelete="0" tags="" />
+    <list j="24" x="411" y="377" w="520" h="49" headerSub="" titleSub="" contentSub="tpl_GenreActorDirectorWriter" footerSub="" orientation="h" l="0" swipedelete="0" tags="" />
+    <txt j="0" x="320" y="213" w="69" h="27" t="cfblue2_small_l" wrap="False" l="0" tags="">Genre:</txt>
+    <txt j="0" x="320" y="272" w="69" h="27" t="cfblue2_small_l" wrap="False" l="0" tags="">Actors:</txt>
+    <txt j="0" x="320" y="328" w="69" h="27" t="cfblue2_small_l" wrap="False" l="0" tags="">Directors:</txt>
+    <txt j="0" x="320" y="389" w="69" h="27" t="cfblue2_small_l" wrap="False" l="0" tags="">Writers:</txt>
+    <btn j="0" x="27" y="486" w="247" h="45" t="cfblue2_bottom_bare" flip="None" sim="1" l="0" s="1" tags="" js="selectPopup('d308');">
+      <inactive s="0">Edit cinema details</inactive>
+      <active s="0">Edit cinema details</active>
+    </btn>
+    <btn j="0" x="27" y="542" w="247" h="45" t="cfblue2_bottom" flip="None" sim="1" l="0" s="1" tags="" js="openPlayDialog();">
+      <inactive s="0">Play Cinema</inactive>
+      <active s="0">Play Cinema</active>
+    </btn>
+  </subpage>
+  <subpage name="playMovie" w="992" h="625" clip="1">
+    <list j="27" x="41" y="96" w="277" h="400" headerSub="" titleSub="" contentSub="tpl_Device" footerSub="" orientation="v" l="0" swipedelete="0" tags="" />
+    <txt j="0" x="48" y="45" w="263" h="39" t="Title_L" wrap="False" l="0" tags="">Player</txt>
+    <list j="28" x="334" y="93" w="277" h="400" headerSub="" titleSub="" contentSub="tpl_File" footerSub="" orientation="v" l="0" swipedelete="0" tags="" />
+    <txt j="0" x="334" y="50" w="263" h="39" t="Title_L" wrap="False" l="0" tags="">File</txt>
+    <list j="29" x="635" y="91" w="277" h="400" headerSub="" titleSub="" contentSub="tpl_Subtitle" footerSub="" orientation="v" l="0" swipedelete="0" tags="" />
+    <txt j="0" x="635" y="48" w="263" h="39" t="Title_L" wrap="False" l="0" tags="">Subtitles</txt>
+    <btn j="0" x="346" y="527" w="247" h="45" t="cfblue2_bottom" flip="None" sim="1" l="0" s="1" tags="" js="videoStation.makePlay();">
+      <inactive s="0">Play!</inactive>
+      <active s="0">Play!</active>
+    </btn>
+  </subpage>
+  <subpage name="tpl_Device" w="277" h="64" clip="1">
+    <btn j="1" x="0" y="2" w="277" h="62" t="cfblue2_bottom_bare" flip="None" sim="0" l="0" s="1" tags="" js="videoStation.deviceListClick(list, listIndex, join)">
+      <inactive s="1">Title</inactive>
+      <active s="1">Title</active>
+    </btn>
+  </subpage>
+  <subpage name="tpl_File" w="277" h="96" clip="1">
+    <btn j="1" x="0" y="2" w="277" h="94" t="cfblue2_bottom_bare" flip="None" sim="0" l="0" s="1" tags="" js="videoStation.fileListClick(list, listIndex, join)">
+      <inactive s="1">Filename</inactive>
+      <active s="1">Filename</active>
+    </btn>
+  </subpage>
+  <subpage name="tpl_Subtitle" w="277" h="64" clip="1">
+    <btn j="1" x="0" y="2" w="277" h="62" t="cfblue2_bottom_bare" flip="None" sim="0" l="0" s="1" tags="" js="videoStation.subtitleListClick(list, listIndex, join)">
+      <inactive s="1">Subtitle</inactive>
+      <active s="1">Subtitle</active>
+    </btn>
+  </subpage>
+</gui>
